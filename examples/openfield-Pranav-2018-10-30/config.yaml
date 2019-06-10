@@ -4,11 +4,13 @@ scorer: Pranav
 date: Oct30
 
 # Project path (change when moving around)
-project_path: WILL BE AUTOMATICALLY UPDATED BY DEMO CODE
+project_path: /data/external_repos/DeepLabCut/examples/openfield-Pranav-2018-10-30
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  WILL BE AUTOMATICALLY UPDATED BY DEMO CODE:
+  /data/external_repos/DeepLabCut/examples/openfield-Pranav-2018-10-30/videos/m4s1.mp4:
+    crop: 0, 640, 0, 480
+  /data/external_repos/DeepLabCut/examples/openfield-Pranav-2018-10-30/videos/m3v1mp4.mp4:
     crop: 0, 640, 0, 480
 bodyparts:
 - snout

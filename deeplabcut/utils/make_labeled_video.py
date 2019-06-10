@@ -26,12 +26,12 @@ from pathlib import Path
 import platform
 
 import matplotlib as mpl
-if os.environ.get('DLClight', default=False) == 'True':
-    mpl.use('AGG') #anti-grain geometry engine #https://matplotlib.org/faq/usage_faq.html
-elif platform.system() == 'Darwin':
-    mpl.use('WxAgg') #TkAgg
-else:
-    mpl.use('TkAgg')
+# if os.environ.get('DLClight', default=False) == 'True':
+#     mpl.use('AGG') #anti-grain geometry engine #https://matplotlib.org/faq/usage_faq.html
+# elif platform.system() == 'Darwin':
+#     mpl.use('WxAgg') #TkAgg
+# else:
+#     mpl.use('TkAgg')
 import matplotlib.pyplot as plt
 
 from deeplabcut.utils import auxiliaryfunctions

@@ -11,13 +11,13 @@ import matplotlib as mpl
 import platform
 from pathlib import Path
 
-if os.environ.get('DLClight', default=False) == 'True':
-    mpl.use('AGG') #anti-grain geometry engine #https://matplotlib.org/faq/usage_faq.html
-    pass
-elif platform.system() == 'Darwin':
-    mpl.use('WXAgg')
-else:
-    mpl.use('TkAgg') #TkAgg
+# if os.environ.get('DLClight', default=False) == 'True':
+#     mpl.use('AGG') #anti-grain geometry engine #https://matplotlib.org/faq/usage_faq.html
+#     pass
+# elif platform.system() == 'Darwin':
+#     mpl.use('WXAgg')
+# else:
+#     mpl.use('TkAgg') #TkAgg
 import matplotlib.pyplot as plt
 
 def get_cmap(n, name='hsv'):
